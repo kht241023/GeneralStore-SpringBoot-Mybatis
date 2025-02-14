@@ -6,10 +6,7 @@ import edu.store.kh.GeneralStore.service.UserServiceImple;
 import jakarta.servlet.http.HttpSession;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -43,8 +40,34 @@ public class UserAPIController {
         }
     }
     //로그아웃
+    @PostMapping("/logout")
+    public ResponseEntity<Map<String, Object>> logout(HttpSession session) {
+        session.invalidate();
+        Map<String, Object> response = new HashMap<>();
+        response.put("status", "logout");
+        return ResponseEntity.ok(response); // 성공적으로 로그아웃이 됐다면 200
+    }
+    // 로그인 상태 확인 -> DB를 거치지 않고 오직 세션에서만 정보가 존재하는지 확인
+    @GetMapping("/checkLogin")
+    public ResponseEntity<?> checkLogin(HttpSession session) {
+        User loginUser = (User) session.getAttribute("user");
+        if (loginUser != null) {
+            return ResponseEntity.ok(loginUser);
+        } else {
+            return ResponseEntity.status(401).body(Map.of("message", "로그인 상태가 아닙니다."));
+        }
 
-    // 로그인 상태 확인
+    }
 
     // 특정 유저 정보 조회 -> mypage
+    @GetMapping("/{userId}")
+    public ResponseEntity<?> findUserId(@PathVariable("userId") String userId) {
+        User user = userService.findUserId(userId);
+
+        if (user != null) {
+            return ResponseEntity.ok(user);
+        } else {
+            return ResponseEntity.status(404).body(Map.of("message", "로그인 상태가 아닙니다."));
+        }
+    }
 }

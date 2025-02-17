@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3beb57f3-3fb6-45ea-a04b-fa0114ddd70e" name="변경" comment="LoginInterceptor user session 관리">
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/store/kh/GeneralStore/GeneralStoreApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/store/kh/GeneralStore/config/CorsConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/store/kh/GeneralStore/config/DBConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/store/kh/GeneralStore/config/LoginInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/store/kh/GeneralStore/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/store/kh/GeneralStore/config/WebConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/store/kh/GeneralStore/controller/IndexViewController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/store/kh/GeneralStore/controller/KakaoAPIController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/store/kh/GeneralStore/controller/NaverAPIController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/store/kh/GeneralStore/controller/PizzaApiController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/store/kh/GeneralStore/controller/PizzaViewController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/store/kh/GeneralStore/controller/SocialViewController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/store/kh/GeneralStore/controller/UserAPIController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/store/kh/GeneralStore/dto/Pizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/store/kh/GeneralStore/dto/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/store/kh/GeneralStore/externalAPI/APIExamMemberProfile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/store/kh/GeneralStore/mapper/PizzaMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/store/kh/GeneralStore/mapper/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/store/kh/GeneralStore/service/PizzaService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/store/kh/GeneralStore/service/PizzaServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/store/kh/GeneralStore/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/store/kh/GeneralStore/service/UserServiceImple.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/pizzaMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/userMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/pizza-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/default-pizza.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/default_profile.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/kakao_login_large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/naver_login_large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/add-pizza.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/edit-pizza.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/kakaoMap.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/pizza-detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/pizzas.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/signup/kakao.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/signup/naver.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/store/kh/GeneralStore/GeneralStoreApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="XML myBatis File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;kht241023&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/kht241023/GeneralStore-SpringBoot-Mybatis.git&quot;,
+    &quot;accountId&quot;: &quot;14d706a3-a526-4bd1-bef6-19c21084821d&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2sVXFIWl8CGDOd3EUCCzLcVzN66" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Gradle.GeneralStore 빌드.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.GeneralStoreApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user1/Desktop/GeneralStore/UserRole&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user1\Desktop\GeneralStore\src\main\resources\static\images" />
+      <recent name="C:\Users\user1\Desktop\GeneralStore\src\main\resources\static" />
+      <recent name="C:\Users\user1\Desktop\GeneralStore\src\main\java\edu\store\kh\GeneralStore\config" />
+      <recent name="C:\Users\user1\Desktop\GeneralStore\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user1\Desktop\GeneralStore\src\main\resources\static" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="edu.store.kh.GeneralStore.service" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="GeneralStoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="GeneralStore.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.store.kh.GeneralStore.GeneralStoreApplication" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="StructureViewState">
+    <option name="selectedTab" value="논리" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="3beb57f3-3fb6-45ea-a04b-fa0114ddd70e" name="변경" comment="" />
+      <created>1738541611113</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1738541611113</updated>
+      <workItem from="1738541612389" duration="18337000" />
+      <workItem from="1738629040812" duration="20830000" />
+      <workItem from="1738713818840" duration="9556000" />
+      <workItem from="1738724018681" duration="5266000" />
+      <workItem from="1738800161085" duration="2355000" />
+      <workItem from="1738805091451" duration="2136000" />
+      <workItem from="1739158538245" duration="3322000" />
+      <workItem from="1739232122484" duration="4993000" />
+      <workItem from="1739318488787" duration="583000" />
+      <workItem from="1739319087091" duration="3162000" />
+      <workItem from="1739325581430" duration="2911000" />
+      <workItem from="1739404894634" duration="5007000" />
+      <workItem from="1739427605550" duration="1159000" />
+      <workItem from="1739491292407" duration="5993000" />
+      <workItem from="1739750710711" duration="654000" />
+      <workItem from="1739751399084" duration="1226000" />
+    </task>
+    <task id="LOCAL-00001" summary="pizza api setting">
+      <option name="closed" value="true" />
+      <created>1738545988490</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1738545988490</updated>
+    </task>
+    <task id="LOCAL-00002" summary="pizza api select">
+      <option name="closed" value="true" />
+      <created>1738547396357</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1738547396357</updated>
+    </task>
+    <task id="LOCAL-00003" summary="pizza api delete">
+      <option name="closed" value="true" />
+      <created>1738549492539</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1738549492539</updated>
+    </task>
+    <task id="LOCAL-00004" summary="pizza api delete">
+      <option name="closed" value="true" />
+      <created>1738551008153</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1738551008153</updated>
+    </task>
+    <task id="LOCAL-00005" summary="pizza api update">
+      <option name="closed" value="true" />
+      <created>1738561959133</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1738561959133</updated>
+    </task>
+    <task id="LOCAL-00006" summary="pizza api update">
+      <option name="closed" value="true" />
+      <created>1738565182186</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1738565182186</updated>
+    </task>
+    <task id="LOCAL-00007" summary="pizza api insert update uuid currentTimeMills">
+      <option name="closed" value="true" />
+      <created>1738640028187</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1738640028187</updated>
+    </task>
+    <task id="LOCAL-00008" summary="pizza api insert update uuid currentTimeMills">
+      <option name="closed" value="true" />
+      <created>1738648236612</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1738648236612</updated>
+    </task>
+    <task id="LOCAL-00009" summary="pizza api insert update uuid currentTimeMills">
+      <option name="closed" value="true" />
+      <created>1738650846971</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1738650846971</updated>
+    </task>
+    <task id="LOCAL-00010" summary="kakao api login -&gt; signup">
+      <option name="closed" value="true" />
+      <created>1738651600838</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1738651600838</updated>
+    </task>
+    <task id="LOCAL-00011" summary="kakao api login -&gt; signup">
+      <option name="closed" value="true" />
+      <created>1738716635934</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1738716635934</updated>
+    </task>
+    <task id="LOCAL-00012" summary="naver api login -&gt; signup">
+      <option name="closed" value="true" />
+      <created>1738722144282</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1738722144282</updated>
+    </task>
+    <task id="LOCAL-00013" summary="kakao Map API JavaScript">
+      <option name="closed" value="true" />
+      <created>1738727106873</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1738727106874</updated>
+    </task>
+    <task id="LOCAL-00014" summary="LoginInterceptor user session 관리">
+      <option name="closed" value="true" />
+      <created>1739494266614</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1739494266614</updated>
+    </task>
+    <task id="LOCAL-00015" summary="LoginInterceptor user session 관리">
+      <option name="closed" value="true" />
+      <created>1739495199326</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1739495199326</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="pizza api setting" />
+    <MESSAGE value="pizza api select" />
+    <MESSAGE value="pizza api delete" />
+    <MESSAGE value="pizza api update" />
+    <MESSAGE value="pizza api insert update uuid currentTimeMills" />
+    <MESSAGE value="kakao api login -&gt; signup" />
+    <MESSAGE value="naver api login -&gt; signup" />
+    <MESSAGE value="kakao Map API JavaScript" />
+    <MESSAGE value="LoginInterceptor user session 관리" />
+    <option name="LAST_COMMIT_MESSAGE" value="LoginInterceptor user session 관리" />
+  </component>
+</project>
